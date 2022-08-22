@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,11 @@
   "bugs": {
     "url": "https://github.com/RvVall/emamamah.github.io/issues"
   },
-  "homepage": "https://github.com/RvVall/emamamah.github.io#readme"
+  "homepage": "https://github.com/RvVall/emamamah.github.io#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
-
-
